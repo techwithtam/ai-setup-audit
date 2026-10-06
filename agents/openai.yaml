@@ -1,0 +1,13 @@
+interface:
+  display_name: AI Setup Audit
+  short_description: Audit your instructions, memory, and knowledge files
+  default_prompt: Use $ai-setup-audit to audit my AI setup, find what's causing my problems, and draft the fixes.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
